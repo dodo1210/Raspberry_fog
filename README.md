@@ -10,4 +10,4 @@ recebe.py: Este arquivo recebe uma imagem, que para convertida em base64 e execu
 envia.py: Este arquivo converte uma imagem, converte para base64 e envia para o arquivo recebe.py.<br>
 níveis_de_cinza_2: Este arquivo é acionado a partir da lib subprocess no arquivo recebe.py. Nele é segmentada uma imagem em níveis de cinza.
 
-A ordem de execução é recebe.py, depois envia.py. O arquivo níveis_de_cinza2.py é acionado pelo recebe.py.
+A ordem de execução é a seguinte: Executa-se o recebe.py, depois envia.py. O arquivo níveis_de_cinza2.py é acionado pelo recebe.py.
