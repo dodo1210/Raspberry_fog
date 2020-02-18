@@ -7,7 +7,7 @@ Este projeto contém dependência do programa RabbitMQ e das bibliotecas: pika, 
 Este projeto foi desenvolvido em Python e contém três arquivos de execução, são eles: recebe.py, envia.py e niveis_de_cinza2.py
 
 recebe.py: Este arquivo recebe uma imagem, que para convertida em base64 e executa o código níveis_de_cinza2.py, por fim da a resposta de tempo de processamento.<br>
-envia.py: Este arquivo converte uma imagem, converte para base64 e envia para o arquivo recebe.py.
+envia.py: Este arquivo converte uma imagem, converte para base64 e envia para o arquivo recebe.py.<br>
 níveis_de_cinza_2: Este arquivo é acionado a partir da lib subprocess no arquivo recebe.py. Nele é segmentada uma imagem em níveis de cinza.
 
 A ordem de execução é recebe.py, depois envia.py. O arquivo níveis_de_cinza2.py é acionado pelo recebe.py.
